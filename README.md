@@ -56,6 +56,6 @@ The csv, thus obtained is also uploaded.
   6.1 To find the optimum n_estimators required for the model, the model was created for the n_estimators taking the range of 50 to 1000 with an interval of 50 i.e \
       [50,100,150,...1000]. \
   6.2 A plot was plotted using the `seaborn` library which had mean accuracy of the cross validation score on its y-axis and the n_estimators on its x-axis. 
-  6.3 The plot showed the value of n_estimators that gave the highest accuracy. \
+  6.3 The plot showed the value of n_estimators that gave the highest accuracy. 
    
-  Thus, Random Forrest Classifier gave an accuracy of **0.867 or 86.7%** with the value of n_estimators or trees in the forest as **150**. \
+  Thus, Random Forrest Classifier gave an accuracy of **0.867 or 86.7%** with the value of n_estimators or trees in the forest as **150**. 
