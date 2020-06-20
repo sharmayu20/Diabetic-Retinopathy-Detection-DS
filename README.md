@@ -59,3 +59,7 @@ The csv, thus obtained is also uploaded.
   6.3 The plot showed the value of n_estimators that gave the highest accuracy. 
    
   Thus, Random Forrest Classifier gave an accuracy of **0.8675 or 86.8%** with the value of n_estimators or trees in the forest as **150**. 
+  
+ 7.When **Gradient Boosting**  was used on the dataset: \
+   7.1 When Confusion Matrix is used to evaluate the model then the accuracy obtained was varying between **92.7% to 100%** for different ratios of train and test data.
+   7.2 When Cross Validation method was used the weighted f1 score for cv=5 is **[0.8863,0.8863,1,1,0.5581] with mean as 0.869**.
